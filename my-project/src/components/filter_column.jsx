@@ -67,7 +67,7 @@ function Filter_column(){
                 <h1>Filters</h1>
                 <button onClick={handleReset} id="reset_button">Reset</button>
             </div>
-        <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)"}}>
+        <div className="filter_box" >
           <div>
             <lebel>Brightness</lebel>
             <input onChange={(e)=>(handleBrightness(e))} type="range" min="0.00" max="1.00" step="0.10" />
